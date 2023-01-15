@@ -33,7 +33,8 @@ public class TC01_Get {
 		.body("data.id[1]", equalTo(8));
 		
 	}
-	void test_03()	
+	// shruti here these are new changes 
+	void test_13()	
 	{
 		given().
 		get("https://reqres.in/api/users?page=2")
